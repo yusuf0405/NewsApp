@@ -1,4 +1,4 @@
-package com.example.newsapp.news_popular_screen.presentation.adapters
+package com.example.newsapp.app.utils
 
 import android.annotation.SuppressLint
 import android.os.Parcel

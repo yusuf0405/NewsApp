@@ -1,4 +1,4 @@
-package com.example.newsapp.news_popular_screen.domain.usecse
+package com.example.newsapp.news_popular_screen.domain.usecase
 
 import com.example.newsapp.news_popular_screen.data.models.Country
 import com.example.newsapp.news_popular_screen.domain.repository.PopularNewsRepository

@@ -23,8 +23,7 @@ import com.example.newsapp.news_all_screen.presentation.adapter.SortByAdapter
 import com.example.newsapp.news_popular_screen.data.api.LanguageResponse
 import com.example.newsapp.news_popular_screen.data.api.SortByResponse
 import com.example.newsapp.news_popular_screen.domain.models.Article
-import com.example.newsapp.news_popular_screen.presentation.adapters.NewsLoadStateAdapter
-import com.google.android.material.snackbar.Snackbar
+import com.example.newsapp.app.utils.NewsLoadStateAdapter
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.Flow

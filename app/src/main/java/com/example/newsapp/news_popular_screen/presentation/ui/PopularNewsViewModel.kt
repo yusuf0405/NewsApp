@@ -11,9 +11,9 @@ import com.example.newsapp.news_popular_screen.data.api.CountryResponse
 import com.example.newsapp.news_popular_screen.domain.models.Article
 import com.example.newsapp.news_popular_screen.data.models.Category
 import com.example.newsapp.news_popular_screen.data.models.Country
-import com.example.newsapp.news_popular_screen.domain.usecse.GetCategoryNewsUseCase
-import com.example.newsapp.news_popular_screen.domain.usecse.GetCountryNewsUseCase
-import com.example.newsapp.news_popular_screen.domain.usecse.PopularPagerSourceUseCase
+import com.example.newsapp.news_popular_screen.domain.usecase.GetCategoryNewsUseCase
+import com.example.newsapp.news_popular_screen.domain.usecase.GetCountryNewsUseCase
+import com.example.newsapp.news_popular_screen.domain.usecase.PopularPagerSourceUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.Flow

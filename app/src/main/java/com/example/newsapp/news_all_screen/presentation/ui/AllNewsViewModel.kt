@@ -11,7 +11,6 @@ import com.example.newsapp.news_all_screen.data.models.SortBy
 import com.example.newsapp.news_all_screen.domain.uscase.AllPagerSourceUseCase
 import com.example.newsapp.news_all_screen.domain.uscase.GetLanguageNewsUseCase
 import com.example.newsapp.news_all_screen.domain.uscase.GetSortByNewsUseCase
-import com.example.newsapp.news_popular_screen.data.api.CountryResponse
 import com.example.newsapp.news_popular_screen.data.api.LanguageResponse
 import com.example.newsapp.news_popular_screen.data.api.SortByResponse
 import com.example.newsapp.news_popular_screen.domain.models.Article

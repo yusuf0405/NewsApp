@@ -4,13 +4,13 @@ import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.PagingData
 import com.example.newsapp.app.network.RetrofitInstance
+import com.example.newsapp.app.network.models.ArticlesResponseDto
 import com.example.newsapp.news_popular_screen.data.api.CategoryResponse
 import com.example.newsapp.news_popular_screen.data.api.CountryResponse
-import com.example.newsapp.app.network.models.ArticlesResponseDto
-import com.example.newsapp.news_popular_screen.data.source.NewsPagingSource
-import com.example.newsapp.news_popular_screen.domain.models.Article
 import com.example.newsapp.news_popular_screen.data.models.Category
 import com.example.newsapp.news_popular_screen.data.models.Country
+import com.example.newsapp.news_popular_screen.data.source.NewsPagingSource
+import com.example.newsapp.news_popular_screen.domain.models.Article
 import com.example.newsapp.news_popular_screen.domain.repository.PopularNewsRepository
 import kotlinx.coroutines.flow.Flow
 import retrofit2.Response

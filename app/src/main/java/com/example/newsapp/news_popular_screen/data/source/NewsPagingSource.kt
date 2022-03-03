@@ -5,7 +5,7 @@ import androidx.paging.PagingState
 import com.example.newsapp.app.utils.Cons.Companion.MAX_PAGE_SIZE
 import com.example.newsapp.news_popular_screen.data.api.CategoryResponse
 import com.example.newsapp.news_popular_screen.data.api.CountryResponse
-import com.example.newsapp.app.toArticle
+import com.example.newsapp.app.utils.toArticle
 import com.example.newsapp.news_popular_screen.domain.models.Article
 import com.example.newsapp.news_popular_screen.domain.repository.PopularNewsRepository
 import retrofit2.HttpException

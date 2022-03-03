@@ -1,4 +1,4 @@
-package com.example.newsapp.app
+package com.example.newsapp.app.utils
 
 import com.example.newsapp.app.network.models.ArticleDto
 import com.example.newsapp.app.network.models.SourceDto

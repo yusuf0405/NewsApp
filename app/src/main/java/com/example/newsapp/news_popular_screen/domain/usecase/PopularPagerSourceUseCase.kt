@@ -1,4 +1,4 @@
-package com.example.newsapp.news_popular_screen.domain.usecse
+package com.example.newsapp.news_popular_screen.domain.usecase
 
 import androidx.paging.PagingData
 import com.example.newsapp.news_popular_screen.data.api.CategoryResponse

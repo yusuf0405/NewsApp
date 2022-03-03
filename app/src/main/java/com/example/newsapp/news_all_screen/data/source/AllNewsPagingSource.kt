@@ -2,7 +2,7 @@ package com.example.newsapp.news_all_screen.data.source
 
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
-import com.example.newsapp.app.toArticle
+import com.example.newsapp.app.utils.toArticle
 import com.example.newsapp.app.utils.Cons.Companion.MAX_PAGE_SIZE
 import com.example.newsapp.news_all_screen.domain.repository.AllNewsRepository
 import com.example.newsapp.news_popular_screen.data.api.LanguageResponse

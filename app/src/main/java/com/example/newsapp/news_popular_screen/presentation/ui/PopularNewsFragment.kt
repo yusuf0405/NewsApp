@@ -15,6 +15,7 @@ import androidx.paging.LoadState
 import androidx.paging.PagingData
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import com.example.newsapp.R
+import com.example.newsapp.app.utils.NewsLoadStateAdapter
 import com.example.newsapp.databinding.PopularNewsFragmentBinding
 import com.example.newsapp.news_popular_screen.data.api.CategoryResponse
 import com.example.newsapp.news_popular_screen.data.api.CountryResponse
