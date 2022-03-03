@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_all_news"
+        android:icon="@drawable/ic_fact_truth_news_right_clear_icon_143339"
+        android:title="@string/title_popular_news" />
+    <item
+        android:id="@+id/navigation_popular_news"
+        android:icon="@drawable/ic__313115globalinformationnewsscriptwriting_115820_115759"
+        android:title="@string/title_all_news" />
+
+
+
+</menu>

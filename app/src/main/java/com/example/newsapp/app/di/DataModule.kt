@@ -1,7 +1,9 @@
 package com.example.newsapp.app.di
 
-import com.example.newsapp.domain.repository.NewsRepository
-import com.example.newsapp.data.repository.NewsRepositoryImpl
+import com.example.newsapp.news_all_screen.data.repository.AllNewsRepositoryImpl
+import com.example.newsapp.news_all_screen.domain.repository.AllNewsRepository
+import com.example.newsapp.news_popular_screen.data.repository.PopularNewsRepositoryImpl
+import com.example.newsapp.news_popular_screen.domain.repository.PopularNewsRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -14,6 +16,11 @@ class DataModule {
 
     @Provides
     @Singleton
-    fun provideNewsRepository(): NewsRepository = NewsRepositoryImpl()
+    fun provideNewsRepository(): PopularNewsRepository = PopularNewsRepositoryImpl()
+
+    @Provides
+    @Singleton
+    fun provideAllNewsRepository(): AllNewsRepository = AllNewsRepositoryImpl()
+
 
 }

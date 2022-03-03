@@ -1,9 +1,9 @@
 package com.example.newsapp.app
 
-import com.example.newsapp.data.models.ArticleDto
-import com.example.newsapp.data.models.SourceDto
-import com.example.newsapp.domain.models.Article
-import com.example.newsapp.domain.models.Source
+import com.example.newsapp.app.network.models.ArticleDto
+import com.example.newsapp.app.network.models.SourceDto
+import com.example.newsapp.news_popular_screen.domain.models.Article
+import com.example.newsapp.news_popular_screen.domain.models.Source
 
 internal fun ArticleDto.toArticle(): Article {
     return Article(
